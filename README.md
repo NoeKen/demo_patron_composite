@@ -54,9 +54,11 @@ classDiagram
     Component <|-- Leaf
     Component <|-- Composite
 ```
+![Diagramme UML](src/main/resources/images/composite_diagram.png)
 
 ## 💻 Exemple d’implémentation Java
 
+![Diagramme UML](src/main/resources/images/composit_demo.png)
 - `Graphic` : interface de base
 - `Circle`, `Triangle` : feuilles (Leaf)
 - `Drawing` : composite
